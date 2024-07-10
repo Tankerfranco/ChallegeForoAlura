@@ -1,6 +1,9 @@
 package com.Alura.challengeAlura.domain.topicos;
 
 public enum Status {
-    ACTIVO,
-    INACTIVO
+      NO_RESPONDIDO,
+	NO_SOLUCIONADO,
+	SOLUCIONADO,
+	CERRADO;
+    
 }
